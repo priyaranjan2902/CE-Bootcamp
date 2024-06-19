@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIT Bhubaneswar Societies</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header id="header">
+            <canvas id="test"></canvas>
+            <div class="stars">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+            <div class="header-content">
+                <h1 class="heading">IIIT Bhubaneswar Societies</h1>
+                <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+                <!-- <nav class="navbar">
+                    <ul class="navbar-menu">
+                        <li class="navbar-item"><a href="#">Home</a></li>
+                        <li class="navbar-item"><a href="#">About</a></li>
+                        <li class="navbar-item"><a href="#">Contact</a></li>
+                    </ul>
+                </nav> -->
+            </div>
+        </header>
+
+
+    <article class="slider">
+		<section class="slide">
+			<img src="image1.webp" alt="">
+		</section>
+
+		<section class="slide">
+			<img src="image2.jpg" alt="">
+
+			
+		</section>
+
+		<section class="slide">
+			<img src="image3.jpg" alt="">
+		</section>
+
+		<section class="slide">
+			<img src="image4.jpg" alt="">
+		</section>
+
+		<nav class="slider-nav">
+			<span class="prev-slide"></span>
+			<span class="next-slide"></span>
+		</nav>
+	</article>
+	<!-- end Slider -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script>
+		window.jQuery || document.write('<script src="js/lib/jquery-v3.4.1.js"><\/script>');
+	</script>
+
+    <div class="societies-container">
+
+        <div class="card"  onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/techsociety.png" alt="Image 3">
+                    <h2>TECH</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>TECH</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)" >
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/cult.jpeg" alt="Image 1">
+                    <h2>CULT</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>CULT</h2>
+                        <p>There is immense power when a group of people with similar interests gets together to work toward the same goals...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card"  onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/e-cell.png" alt="Image 2">
+                    <h2>Entrepreneurship Cell</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>Entrepreneurship Cell</h2>
+                        <p>Entrepreneurship Cell is one of the most active cells for all the young minds who like to innovate and think dynamically...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card"  onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/fats.png" alt="Image 3">
+                    <h2>FATS</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>FATS</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/naps.jpeg" alt="Image 3">
+                    <h2>NAPS</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>NAPS</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/tars.jpeg" alt="Image 3">
+                    <h2>TARS</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>TARS</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/paracosm.png" alt="Image 3">
+                    <h2>PARACOSM</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>PARACOSM</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/sports.png" alt="Image 3">
+                    <h2>SPORTS</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>SPORTS</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/photogeeks.png" alt="Image 3">
+                    <h2>PHOTOGEEKS</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>PHOTOGEEKS</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="image3.jpg" alt="Image 3">
+                    <h2>MEGAHEARTZ</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>MEGAHEARTZ</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="image3.jpg" alt="Image 3">
+                    <h2>VEDANTA SAMITI</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>VEDANTA SAMITI</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card"   onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="image3.jpg" alt="Image 3">
+                    <h2>SPIC MACAY</h2>
+                </div>
+                <div class="card-back">
+                    <div>
+                        <h2>SPIC MACAY</h2>
+                        <p>The film and theatre society of IIIT Bhubaneswar needs no introduction...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
